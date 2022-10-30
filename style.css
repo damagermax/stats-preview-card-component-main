@@ -113,13 +113,25 @@ body{
 }
 
 
+
 .card_image .image{
     width: 100%;
     height: 100%;
     object-fit: cover;
- 
 }
 
+.card_image{
+    position: relative;
+
+}
+
+.card_image::after{
+position: absolute;
+content: '';
+inset: 0;
+background-color: hsla(277, 94%, 45%, 0.597);
+
+}
 
 @media (max-width:785px) {
     html{
