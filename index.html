@@ -52,7 +52,17 @@
           </div>
 
           <div class="card_image">
-            <img class="image" src="images/image-header-desktop.jpg" alt="" />
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="images/image-header-desktop.jpg"
+              />
+              <source
+                media="(max-width: 375px)"
+                srcset="images/image-header-mobile.jpg"
+              />
+              <img class="image" src="images/image-header-desktop.jpg" alt="" />
+            </picture>
           </div>
         </div>
       </article>

@@ -171,4 +171,9 @@ background-color: hsla(277, 94%, 45%, 0.597);
         margin-bottom: 1.5rem;
         
     }
+
+    .card_image .image{
+        content: "";
+
+    }
 }
